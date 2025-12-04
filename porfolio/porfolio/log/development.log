@@ -461,3 +461,13 @@ Processing by PortfolioController#index as HTML
 Completed 200 OK in 3145ms (Views: 23.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2025-12-04 01:52:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (7.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Porfolio'*/[0m
+Processing by PortfolioController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered portfolio/index.html.erb within layouts/application (Duration: 18.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 318.3ms | GC: 71.6ms)
+Completed 200 OK in 3614ms (Views: 430.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 73.2ms)
+
+
