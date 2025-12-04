@@ -419,3 +419,22 @@ Started GET "/users" for 127.0.0.1 at 2025-12-04 00:10:54 +0000
   
 ActionController::RoutingError (No route matches [GET] "/users"):
   
+Started GET "/" for 127.0.0.1 at 2025-12-04 00:29:44 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (14.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Porfolio'*/[0m
+Processing by PortfolioController#index as HTML
+Started GET "/" for 127.0.0.1 at 2025-12-04 00:29:49 +0000
+Processing by PortfolioController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered portfolio/index.html.erb within layouts/application (Duration: 27.4ms | GC: 6.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 276.2ms | GC: 20.4ms)
+Completed 200 OK in 3443ms (Views: 437.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 116.6ms)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered portfolio/index.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 200 OK in 3762ms (Views: 10.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 116.9ms)
+
+
