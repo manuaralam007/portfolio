@@ -395,3 +395,27 @@ Processing by PortfolioController#index as HTML
 Completed 200 OK in 41ms (Views: 18.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 10.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2025-12-01 15:37:16 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Porfolio'*/[0m
+Processing by PortfolioController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered portfolio/index.html.erb within layouts/application (Duration: 5.1ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | GC: 1.3ms)
+Completed 200 OK in 1343ms (Views: 126.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-12-03 15:17:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (16.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Porfolio'*/[0m
+Processing by PortfolioController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered portfolio/index.html.erb within layouts/application (Duration: 23.7ms | GC: 7.9ms)
+  Rendered layout layouts/application.html.erb (Duration: 610.8ms | GC: 90.7ms)
+Completed 200 OK in 5470ms (Views: 733.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 96.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-12-04 00:10:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
